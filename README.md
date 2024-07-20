@@ -32,9 +32,11 @@ This is a Blog Website built with React and Vite, using Appwrite as the backend.
 4. **Configure Environment Variables**:
    Create a `.env` file in the root of the project with the following content:
    ```plaintext
-   VITE_APPWRITE_ENDPOINT=<Your Appwrite Endpoint>
-   VITE_APPWRITE_PROJECT_ID=<Your Appwrite Project ID>
-   VITE_APPWRITE_DATABASE_ID=<Your Appwrite Database ID>
+   VITE_APPWRITE_URL="https://cloud.appwrite.io/v1"
+    VITE_APPWRITE_PROJECT_ID=""
+    VITE_APPWRITE_DATABASE_ID=""
+    VITE_APPWRITE_COLLECTION_ID=""
+    VITE_APPWRITE_BUCKET_ID=""
    ```
 
 5. **Run the Application**:
